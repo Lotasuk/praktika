@@ -1,0 +1,19 @@
+﻿<Window x:Class="praktika.Pages.UpdateStaff"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:praktika.Pages"
+        mc:Ignorable="d"
+        Title="UpdateStaff" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Width="150">
+            <TextBox x:Name="NameBox"/>
+            <TextBox x:Name="SurnameBox"/>
+            <TextBox x:Name="PatronymicBox"/>
+            <TextBox x:Name="NumberBox"/>
+            <TextBox x:Name="RoleIdBox"/>
+            <Button x:Name="UpdEmployee" Content="Update" Click="UpdEmployee_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
